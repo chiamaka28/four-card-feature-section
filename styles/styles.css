@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+   
+}
+.card{
+    height: 200px;
+    max-width:280px;
+    box-shadow: 4px 4px 15px 0px rgba(44, 44, 44, 0.15);
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+ 
+    padding: 23px 27px;
+    display: flex;
+    flex-direction: column; 
+    
+}
+.card h3{
+     font-size: 18px;
+     margin-bottom: 5px;
+     color: hsl(234, 12%, 34%);
+}
+.card p{
+    font-size: 14px; 
+    line-height: 1.5rem;
+    color:  hsl(229, 6%, 66%);
+}
+img{
+    width: 40px;
+    margin-top: 4rem;
+    margin-left: 15rem;
+  
+    
+ 
+
+    
+}
+.header{
+    text-align: center;
+    width: 300px;
+    margin: auto;
+}
+.header h1{
+    font-weight: 200;
+    font-size:25px;
+    color: hsl(234, 12%, 34%);
+
+}
+.header h2{
+    font-size: 25px;
+    font-weight: 600;
+    color: hsl(234, 12%, 34%);
+}
+.header p{
+    padding:0 25px;
+    font-size: 16px;
+    font-weight: 400;
+    color:  hsl(229, 6%, 66%);
+    line-height: 1.6rem;
+}
+.supervisor{
+    border-top: 3px solid hsl(180, 62%, 55%);
+}
+.team{
+    border-top: 3px solid hsl(0, 78%, 62%);
+}
+.karma{
+    border-top: 3px solid hsl(34, 97%, 64%);
+}
+.calculator{
+    border-top: 3px solid hsl(212, 86%, 64%);
+}
+  
+
+@media only screen and (min-width: 698px) {
+    
+    .container{
+        max-width: 600px;
+        margin: auto;
+        margin-bottom: 100px;
+    }
+    
+    .header{
+        text-align: center;
+        width: 500px;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .header p{
+        margin-top: 8px;
+    }
+    .wrapper{
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+    
+    
+}
+@media only screen and (min-width: 890px) {
+    .wrapper{
+
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+       
+       
+    }
+    .container{
+        max-width: 960px;
+        margin: auto;
+        
+    }
+    
+
+    .supervisor{
+        /* transform: translateY(85%);  */
+    }
+    .team{
+        /* transform: translateY(20%);  */
+
+    } 
+    .supervisor{
+        grid-column: 1/2; 
+        position: relative;
+        bottom: -140px;
+        /* grid-row: 1/3;
+        align-self: center; */
+    }
+    .karma{
+        grid-column: 2;
+         /* transform: translateY(10%); */
+    }
+    .calculator{
+         grid-column: 3/4;
+         position: relative;
+         top: -90px;
+         margin-bottom: 100px;
+       
+       
+        /* transform: translateY(-40%); */
+    
+        
+    }
+.supervisor, .calculator {
+    /* grid-row: span 3;
+    align-self: center; */
+  }
+  .supervisor,
+  .calculator {
+    /* grid-row: span 2;
+    align-self: center;
+  } */
+  
+}
