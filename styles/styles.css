@@ -34,7 +34,7 @@ img{
     /* margin-top: 20%;
     margin-left: 75%; */
    position: relative;
-   top: 40px;
+   top: 45px;
    left:80%;
     
  
@@ -69,12 +69,14 @@ img{
 }
 .team{
     border-top: 3px solid hsl(0, 78%, 62%);
+    padding: 15px 27px;
 }
 .karma{
     border-top: 3px solid hsl(34, 97%, 64%);
 }
 .calculator{
     border-top: 3px solid hsl(212, 86%, 64%);
+    padding: 15px 27px;
 }
   
 
