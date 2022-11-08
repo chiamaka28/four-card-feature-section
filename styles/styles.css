@@ -3,8 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
-.container{
-   
+body{
+    font-family: 'Poppins', sans-serif;
 }
 .card{
     height: 200px;
@@ -31,9 +31,11 @@
 }
 img{
     width: 40px;
-    margin-top: 4rem;
-    margin-left: 15rem;
-  
+    /* margin-top: 20%;
+    margin-left: 75%; */
+   position: relative;
+   top: 60px;
+   left:80%;
     
  
 
