@@ -6,6 +6,9 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+.container{
+    margin-bottom: 100px;
+}
 .card{
     height: 200px;
     max-width:280px;
@@ -44,6 +47,7 @@ img{
     text-align: center;
     width: 350px;
     margin: auto;
+    margin-top: 70px;
 }
 .header h1{
     font-weight: 200;
